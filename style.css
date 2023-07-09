@@ -54,7 +54,7 @@ header{
 
 .bn-photo{
     width: 400px;
-    padding-right: 0;
+    /* margin-left: 500px; */
 
 }
 .h-title{
@@ -137,7 +137,7 @@ header{
 .resu-container{
     display: flex;
     justify-content: space-between;
-    margin: 80px 150px 50px;
+    margin: 80px 150px 0;
 }
 .resu-title{
     color: #474747;
@@ -159,6 +159,41 @@ header{
    font-size: 16px;
    font-weight: 400;
 }
-.btn{
+.cv{
+    text-align: center;
+    margin:20px 130px;
+}
+.footer{
+    background: #FFF8F3;
+}
+.foot-container{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 130px 230px;
+}
+.input-contain{
+    margin-left: 80px;
+}
+.input{
+    margin-bottom: 25px;
     display: block;
+}
+.int{
+    border-radius: 5px;
+    background: #FFF;
+    width: 400px;
+    height: 130px;
+}
+.et{
+    width: 400px;
+    height: 35px;
+    border: none;
+
+}
+.icon{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.img{
+    margin-left: 0;
 }
